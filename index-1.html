@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Watershowmaster — watershows, moving-heads, lichteffecten en showsequencing voor Minecraft.">
+  <title>Watershowmaster 0.5.0 | Minecraft</title>
+  <style>
+    :root{color-scheme:dark;--bg:#070d20;--panel:#101b38;--panel2:#14264b;--cyan:#37dcff;--blue:#367bff;--text:#eef6ff;--muted:#a8bad8}
+    *{box-sizing:border-box} body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:radial-gradient(ellipse at 50% -10%,#173b78 0,#0a1530 42%,var(--bg) 78%);color:var(--text);line-height:1.6}
+    a{color:inherit}.wrap{width:min(1100px,92%);margin:auto}.hero{padding:42px 0 24px;text-align:center}.eyebrow{color:var(--cyan);font-weight:700;letter-spacing:.16em;text-transform:uppercase;font-size:.78rem}
+    h1{font-size:clamp(2.3rem,7vw,4.8rem);line-height:1.05;margin:12px 0;background:linear-gradient(90deg,#fff,#62eaff 55%,#7b9cff);color:transparent;background-clip:text;text-shadow:0 0 34px #27cfff38}
+    .lead{font-size:1.15rem;color:var(--muted);max-width:720px;margin:0 auto 24px}
+    .preview{display:block;width:100%;height:auto;border:1px solid #2a7bb8;border-radius:18px;box-shadow:0 18px 70px #0009;margin:28px auto}
+    .actions{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin:25px 0}.btn{display:inline-block;text-decoration:none;padding:13px 20px;border-radius:10px;font-weight:800;background:linear-gradient(100deg,#087fc2,#2867e9);box-shadow:0 8px 25px #087fc244}.btn.secondary{background:#17284a;border:1px solid #3b679b}
+    section{padding:28px 0}.section-title{font-size:1.8rem;margin:0 0 16px}.muted{color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}.card{background:linear-gradient(145deg,#14264a,#0d1832);border:1px solid #263e68;border-radius:14px;padding:19px}.card h3{margin:0 0 7px;color:#70e8ff}.card p{margin:0;color:var(--muted)}
+    .download{display:flex;align-items:center;justify-content:space-between;gap:16px}.download strong{display:block}.download small{color:var(--muted)}
+    .download a{white-space:nowrap;text-decoration:none;background:#173d70;border:1px solid #3c83bd;padding:9px 13px;border-radius:8px;font-weight:700}
+    ol{padding-left:22px}.steps li{padding:5px 0}.notice{border-left:3px solid var(--cyan);background:#102447;padding:14px 17px;border-radius:8px;color:var(--muted)}
+    footer{border-top:1px solid #22395f;padding:24px 0 38px;text-align:center;color:var(--muted);font-size:.9rem}
+    code{background:#071329;padding:2px 6px;border-radius:5px;color:#9deeff}
+    @media(max-width:560px){.download{align-items:flex-start;flex-direction:column}.hero{padding-top:30px}}
+  </style>
+</head>
+<body>
+  <header class="hero wrap">
+    <div class="eyebrow">Minecraft show & lighting plugin · versie 0.5.0</div>
+    <h1>Watershowmaster</h1>
+    <p class="lead">Maak van je Minecraft-wereld een spectaculaire showlocatie met moving-heads, water- en rookeffecten, lichtbundels en programmeerbare shows.</p>
+    <div class="actions">
+      <a class="btn" href="Watershowmaster-0.5.0.jar" download>⬇ Download plugin (.jar)</a>
+      <a class="btn secondary" href="Watershowmaster-ResourcePack-v0.5.0.zip" download>⬇ Download resourcepack (.zip)</a>
+    </div>
+    <img class="preview" src="watershowmaster-preview.png" alt="Watershowmaster-preview met vijf moving-head armaturen, gekleurde fonteinen en lichteffecten">
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h2 class="section-title">Wat kun je ermee?</h2>
+      <div class="grid">
+        <article class="card"><h3>💧 Water moving-head</h3><p>Watergerichte showeffecten en roterende armaturen voor een fonteinshow.</p></article>
+        <article class="card"><h3>☁️ Smoke moving-head</h3><p>Voeg rook- en deeltjeseffecten toe aan je podium of evenement.</p></article>
+        <article class="card"><h3>🔦 Gobo moving-head</h3><p>Gebruik lichtprojecties en patronen voor extra sfeer.</p></article>
+        <article class="card"><h3>✨ Spotlights</h3><p>Richt de aandacht op je podium met spot- en theaterverlichting.</p></article>
+        <article class="card"><h3>🎨 Dynamische lichteffecten</h3><p>Combineer kleuren, lichtbundels en verschillende showelementen.</p></article>
+        <article class="card"><h3>⏯ Showsequencer</h3><p>Stel showstappen samen en beheer je shows via de ingebouwde editors.</p></article>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Downloads</h2>
+      <div class="grid">
+        <article class="card download">
+          <div><strong>Watershowmaster 0.5.0</strong><small>Serverplugin · JAR-bestand</small></div>
+          <a href="Watershowmaster-0.5.0.jar" download>Download .jar</a>
+        </article>
+        <article class="card download">
+          <div><strong>Watershowmaster Resourcepack 0.5.0</strong><small>Armatuurmodellen en textures · ZIP-bestand</small></div>
+          <a href="Watershowmaster-ResourcePack-v0.5.0.zip" download>Download .zip</a>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Installatie</h2>
+      <div class="card">
+        <ol class="steps">
+          <li>Stop je Minecraft-server en maak voor de zekerheid een back-up.</li>
+          <li>Gebruik een Paper-server. De plugin is gebouwd voor Minecraft/Paper 1.21.x; de meegeleverde resourcepackmetadata vermeldt Paper 1.21.11.</li>
+          <li>Plaats <code>Watershowmaster-0.5.0.jar</code> in de map <code>plugins</code>.</li>
+          <li>Start de server één keer op zodat de pluginbestanden worden aangemaakt.</li>
+          <li>Gebruik het meegeleverde resourcepack. De pluginconfig verwijst standaard naar <code>Watershowmaster-ResourcePack.zip</code>; plaats dit bestand volgens de resourcepack-instelling van je server.</li>
+          <li>Herstart de server en open de plugininterface met <code>/watershowmaster gui</code> (alias: <code>/wsm</code>).</li>
+        </ol>
+        <p class="notice"><strong>Let op:</strong> de JAR bevat ook een kopie van het resourcepack. De losse ZIP hierboven is handig om apart te downloaden of te hosten. Controleer na installatie of spelers het resourcepack daadwerkelijk laden.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Technische informatie</h2>
+      <div class="grid">
+        <article class="card"><h3>Versie</h3><p>Watershowmaster 0.5.0</p></article>
+        <article class="card"><h3>Serverplatform</h3><p>Paper · API-versie 1.21</p></article>
+        <article class="card"><h3>Hoofdcommando</h3><p><code>/watershowmaster</code><br>Aliassen: <code>/wsm</code>, <code>/watershow</code>, <code>/stage</code></p></article>
+        <article class="card"><h3>Rechten</h3><p><code>watershowmaster.admin</code> · standaard alleen operators</p></article>
+      </div>
+      <p class="muted">De pluginconfig bevat instellingen voor effect-update-interval, particle density en een maximum van 64 fixtures per show. Pas deze waarden voorzichtig aan bij grotere shows.</p>
+    </section>
+  </main>
+
+  <footer><div class="wrap">Watershowmaster 0.5.0 · Gemaakt door GamerBaas321</div></footer>
+</body>
+</html>
